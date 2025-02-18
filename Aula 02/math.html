@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title>
+    <style>
+        
+        *{
+            padding : 0;
+            margin : 0;
+            font-family: Arial, Helvetica, sans-serif;            
+        }
+    </style>
+</head>
+<body>
+   <h1>Contas matemáticas</h1>
+   <section>
+    <h2>Soma</h2>
+
+    <label for="n1">Primeiro número:</label><br>
+    <input type="text" id="n1" placeholder="Digite o primeiro número: "><br>
+    <label for="n2">Segundo número:</label><br>
+    <input type="text" id="n2" placeholder="Digite o primeiro número: "><br><br>
+    <button onclick="somar()">SOMAR</button><br>
+    <p id="res">Resultado</p>
+
+   </section>
+   <section>
+    <h2>Subtração</h2>
+
+    <label for="n3">Primeiro número:</label><br>
+    <input type="text" id="n3" placeholder="Digite o primeiro número: "><br>
+    <label for="n4">Segundo número:</label><br>
+    <input type="text" id="n4" placeholder="Digite o primeiro número: "><br><br>
+    <button onclick="subtracao()">SUBTRAIR</button><br>
+    <p id="res1">Resultado</p>
+
+   </section>
+   <section>
+    <h2>Multiplicação</h2>
+
+    <label for="n5">Primeiro número:</label><br>
+    <input type="text" id="n5" placeholder="Digite o primeiro número: "><br>
+    <label for="n6">Segundo número:</label><br>
+    <input type="text" id="n6" placeholder="Digite o primeiro número: "><br><br>
+    <button onclick="multiplicacao()">MULTIPLICAÇÃO</button><br>
+    <p id="res2">Resultado</p>
+
+   </section>
+   <section>
+    <h2>Divisão</h2>
+
+    <label for="n7">Primeiro número:</label><br>
+    <input type="text" id="n7" placeholder="Digite o primeiro número: "><br>
+    <label for="n8">Segundo número:</label><br>
+    <input type="text" id="n8" placeholder="Digite o primeiro número: "><br><br>
+    <button onclick="divisao()">DIVISÃO</button><br>
+    <p id="res3">Resultado</p>
+
+   </section>
+   <script>
+    </script>
+    
+    <script>
+        function somar(){
+            var numero1 = parseFloat(document.getElementById("n1").value)
+            var numero2 = parseFloat(document.getElementById("n2").value )
+            var res = document.getElementById("res")
+            res.textContent = numero1+numero2
+            return res
+            
+        }
+        function subtracao(){
+            var numero1 = parseFloat(document.getElementById("n3").value)
+            var numero2 = parseFloat(document.getElementById("n4").value )
+            var res = document.getElementById("res1")
+            res.textContent = numero1-numero2
+            return res1
+        }
+        function multiplicacao(){
+            var numero1 = parseFloat(document.getElementById("n5").value)
+            var numero2 = parseFloat(document.getElementById("n6").value )
+            var res = document.getElementById("res2")
+            res.textContent = numero1*numero2
+            return res2
+        }
+        function divisao(){
+            var numero1 = parseFloat(document.getElementById("n7").value)
+            var numero2 = parseFloat(document.getElementById("n8").value )
+            var res = document.getElementById("res3")
+            res.textContent = numero1/numero2
+            return res3
+        }
+    </script>
+</body>
+</html>
