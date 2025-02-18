@@ -5,3 +5,4 @@ teste de repositorio git
 - git add .
 - git commit -m "nome da alteração/descrição"
 - git push
+et
