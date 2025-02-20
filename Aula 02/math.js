@@ -85,3 +85,21 @@ function calculoImc(){
     }
 
     }
+
+    function verificarIdade(){
+        var idade = parseInt(document.getElementById("idade1").value)
+        var respIdade = document.getElementById("respIdade")
+        var msgIdade = document.getElementById("msgIdade")
+
+        if(idade >= 18){
+            respIdade.textContent = idade
+            msgIdade.textContent = "Entrada liberada"
+            msgIdade.style.color = "green"
+        }else{
+            respIdade.textContent = idade
+            msgIdade.textContent = "Entrada negada"
+            msgIdade.style.color = "red"
+        }
+
+
+    }
