@@ -3,27 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo do Site-->
     <title>Apresentação</title>
+    
+    <!--Referenciando style.css para deixar o site mais bonito com css-->
     <link rel="stylesheet" href="style.css">
+    
+    <!--link do menu bar do bootstrap para deixa o site mais bonito vizualmente-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+     
+    <!--link da fonte utilizada no site, caso queira umas fontes melhores professor recomendou google fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
 
 </head>
+<!--corpo do código html--> 
 <body>
+    <!--esse nav bar é o menu que pegou no bootstrap para que quando clicar ele ir direto pra onde esta marcando a sua referencia-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container-fluid">    
+          <!--colocando a logo do site na barra de menu do site-->
           <a class="navbar-brand" href="#"><img class="img-logo" src="./assets/foto-logo.jpg" alt="Logo"></a>
+          <!--configurando os botões do navbar-->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+              <!--colocando os botões visiveis no menu com sua referencia(href) para conseguir conectar cada um com um id diferente depois-->
               <a class="nav-link" href="#s1">Perfil</a>
               <a class="nav-link" href="#s2">Tecnologias</a>
               <a class="nav-link" href="#s3">Projetos</a>
@@ -33,19 +45,35 @@
         </div>
       </nav>
       <main>
+        <!--essa section e responsavel por exebir o botão s1 que seria o perfil-->
+        <!--aki a section recebeu um id s1 para poder referenciar no css, com a section específicada como s1-->
+        <!--podera mexer livremente nessa section sem alterar todas as outras-->
         <section id="s1">
+          <!--div recebe uma classe chamada s1-left (s1-esquerda) para poder modificar o lado esquerdo da tela no css-->
             <div class = "s1-left">
+              <!--essa div recebe uma clase wrap-img para colocar a foto da section 1 (s1) para poder colocar o tamanho dela onde ela irá fica etc-->
                 <div class="wrap-img">
+                  <!--colocando a foto no site e fazendo a imagem receber uma classe chamada img-s1 para poder modificar a imagem no css-->
                     <img class="img-s1" src="./assets/foto-igor.png" alt="Profile">
                 </div>
             </div>
+            <!--div do lado direito da tela recebendo uma classe(s1-right) com a classe ja nomeada tem que configurar no css para os elementos ficar do lado direito da tela)-->
             <div class="s1-right">
+              <!--adicionando um titulo e fazendo esse titulo receber uma classe com o nome title-name-->
                 <h2 class="title-name">Igor Victor</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quasi et, ducimus dolorum nihil reprehenderit, 
-                    ea totam sunt provident iste minus maxime dolores doloremque officiis obcaecati 
-                    tenetur autem repudiandae amet dicta.</p>
+                <!--adicionando um texto e fazendo ele receber uma classe com o nome texto-->
+                <p class="texto">Você não vai acreditar. Mas você cabia aqui. Eu segurava você e dizia “Esse menino vai ser o melhor menino do mundo. 
+                  Esse menino vai ser melhor do que qualquer um que conhecemos.”. E você cresceu bom, maravilhoso.
+                  Aí chegou a hora de você ser adulto e conquistar o mundo. E conquistou. Mas em algum ponto desse percurso, você mudou. Você deixou de ser você.
+                  Agora deixa as pessoas botarem o dedo na sua cara e dizer que você não é bom. Eu vou te dizer uma coisa que você já sabe: O mundo não é um grande arco-íris. 
+                  É um lugar sujo, é um lugar cruel. Que não quer saber o quanto você é durão. Vai botar você de joelhos e você vai ficar de joelhos para sempre se você deixar.
+                  Você, eu, ninguém vai bater tão duro como a vida. Mas não se trata de bater duro. Se trata de quanto você aguenta apanhar e seguir em frente. 
+                  O quanto você é capaz de aguentar e continuar tentando. É assim que se consegue vencer.
+                  Agora se você sabe o seu valor, então vá atrás do que você merece. Mas tem que ter disposição para apanhar. 
+                  E nada de apontar dedos, dizer que você não consegue por causa dele, dela ou de quem seja. 
+                  Só covardes fazem isso e você não é covarde. Você é melhor do que isso!</p>
             </div>
+            <!--aki fica os outros botões que nao configuramos ainda-->
         </section>
         <section id="s2">
             nova sessao
