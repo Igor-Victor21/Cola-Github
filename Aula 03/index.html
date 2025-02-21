@@ -75,16 +75,129 @@
             </div>
             <!--aki fica os outros botões que nao configuramos ainda-->
         </section>
+        <!--cartao de informações das tecnologias-->
         <section id="s2">
-            nova sessao
+          <div class="cartaoTec">
+            <div class="envelopamento-img-cartao">
+              <img src="./assets/imagem html.png" alt="logo html " width = "80px" height="auto"> 
+            </div>
+            <div class="envelopamento-info-cartao">
+              <h3>HTML 5</h3>
+              <p>HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, 
+                originalmente proposto por Opera Software. É a quinta versão da linguagem HTML.</p>
+            </div>
+          </div>
+          
+          <div class="cartaoTec">
+            <div class="envelopamento-img-cartao">
+              <img src="./assets/css.webp" alt="logo css " width = "80px" height="auto">
+            </div>
+            <div class="envelopamento-info-cartao">
+              <h3>CSS 3</h3>
+              <p>CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets, 
+                pela qual se define estilos para um projeto web. Com efeitos de transição, imagem, 
+                imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, 
+                alterando diversos aspectos de design no layout da página.</p>
+            </div>
+          </div>
+
+          <div class="cartaoTec">
+            <div class="envelopamento-img-cartao">
+              <img src="./assets/1_YPYdVAg5ieRspLI6HIpmDQ.png" alt="logo javascript " width = "80px" height="auto">
+            </div>
+            <div class="envelopamento-info-cartao">
+              <h3>JAVA SCRIPT</h3>
+              <p>JavaScript é uma linguagem de programação interpretada estruturada, 
+                de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, 
+                o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+            </div>
+          </div>
+
+          <div class="cartaoTec">
+            <div class="envelopamento-img-cartao">
+              <img src="./assets/java.png" alt="logo java " width = "80px" height="auto">
+            </div>
+            <div class="envelopamento-info-cartao">
+              <h3></h3>
+              <p>Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90
+                 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, 
+                 que em 2008 foi adquirido pela empresa Oracle Corporation.</p>
+            </div>
+          </div>
+          
         </section>
         <section id="s3">
-            nova sessao
+          <div class="wrap-acc">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                 Projeto calculadora interface gráfica
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Projeto de uma calculadora feita por mim em java <br> <a target="_blank" href="https://github.com/Igor-Victor21/Calculadora-Java-Interface">Acessar projeto no github</a></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Projeto calculadora interface gráfica
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Projeto de uma calculadora feita por mim em java <br> <a target="_blank" href="https://github.com/Igor-Victor21/Calculadora-Java-Interface">Acessar projeto no github</a></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Projeto calculadora interface gráfica
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Projeto de uma calculadora feita por mim em java <br> <a target="_blank" href="https://github.com/Igor-Victor21/Calculadora-Java-Interface">Acessar projeto no github</a></div>
+              </div>
+            </div>
+          </div>
+    </div>
         </section>
         <section id="s4">
-            nova sessao
+            <h2>Contato</h2>
+            <div class="formularioContato">
+              <label for="nome">Nome</label>
+              <input type="text" placeholder="Digite seu nome" id="nome">
+              <label for="assunto">Assunto</label>
+              <input type="text" placeholder="Digite o assunto" id="assunto">
+              <br>
+              <button onclick="enviar()">Enviar</button>
+            </div>
         </section>
+        <footer>
+          <a target="_blank" href="https://www.instagram.com/"><img width="30px" height="auto" src="./assets/logo insta.png" alt="Instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/login"><img width="30px" height="auto" src="./assets/facebook logo.webp" alt="Facebook"></a>
+            <a target="_blank" href="https://x.com/"><img width="30px" height="auto" src="./assets/twitter logo.png" alt="X"></a>
+            <a target="_blank" href="https://br.linkedin.com/"><img width="30px" height="auto" src="./assets/linkdin.bc4172bd-63f0-455a-9acd-5457f44e4473" alt="WhatsApp"></a>
+        </footer>
       </main>
+      <script>
+        function enviar(){
+          document.getElementById("nome").style.border = "1px solid black"
+          document.getElementById("assunto").style.border = "1px solid black"
+          const nome = document.getElementById("nome").value
+          const assunto = document.getElementById("assunto").value
+
+          if(!nome || !assunto){
+            document.getElementById("nome").style.border("2px solid red")
+            document.getElementById("assunto").style.border("2px solid red")
+            return
+          }
+
+          const mensagem = `Gostaria de entrar em contato!!! \n\nNome: ${nome} \nAssunto: ${assunto}`
+          const msg = encodeURIComponent(mensagem)
+          window.location.href = `https://wa.me/5541987446352?text=${msg}`
+
+        }
+      </script>
     
 </body>
 </html>
