@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    :root{
+        
+        --preto: #000000;
+        --vermelho-escuro: #9F111B;
+        --vermelho: #B11623;
+        --cinza-escuro: #292C37;
+        --braco-cinza: #CCCCCC;
+    }
+
+
+/*
+body{
+ background-color: var(--preto);   
+}
+*/
+.img-logo{
+    width: 70px;
+    height: auto;
+}
+
+
+
+

@@ -21,6 +21,7 @@ body{
     background-image: url("./assets/papel-de-parede-paisagem-montanhas-geladas.jpg.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #ffffff;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     display: flex;
@@ -28,6 +29,8 @@ body{
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    width: 100vw;
+    height: 25vh;
 
 }
 
