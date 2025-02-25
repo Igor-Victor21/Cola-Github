@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-image: url("./assets/fundo\ minecraft.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* colocando o plano de fundo centralizado */
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* ocupando todo o espaço da tela */
+    width: 100vw;
+    height: 100vh;
+}
+
+.cartaoGato{
+    background-color: black;
+    width: 16rem;
+    height: 450px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.envelopamento-img-cartao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    max-height: 80px;
+} 
+
+section :hover{
+    background-color: #07327273;
+    color: rgb(255, 255, 255);
+}
+
+.envelopamento-info-cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    max-height: 200px;
+} 
+.envelopamento-info-cartao h3{
+    max-height: 50px;
+    min-height: 50px;
+}
+
+.envelopamento-info-cartao button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 999px;
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    transition: all 200ms ease-in-out;
+ }
+ 
+ .envelopamento-info-cartao button:hover{
+     color: black;
+     border: 2px solid black;
+     background: white;
+ }
+ 
+ .envelopamento-info-cartao button:hover{
+     color: black;
+     border: "2px solid black";
+     background: white;
+ }
+ 
+ .envelopamento-info-cartao label{
+     text-align: left;
+     width: 100%;
+     margin-left: 40px;
+ }
