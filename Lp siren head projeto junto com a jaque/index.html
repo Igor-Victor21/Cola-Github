@@ -1,147 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Jogador Desaparecido</title>
-    <!--linkando o css e o java script-->
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <!--Link nav bar-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Jogador Desaparecido</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <!--linkando o css e o java script-->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <!--Link nav bar-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-        <!--carrossel-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!--carrossel-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">    
-          <!--colocando a logo do site na barra de menu do site-->
-          <a class="navbar-brand" href="#"><img class="img-logo" src="./images/scp-branco.webp" alt="Logo"></a>
-          <!--configurando os botões do navbar-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <!--colocando os botões visiveis no menu com sua referencia(href) para conseguir conectar cada um com um id diferente depois-->
-              <a class="nav-link" href="#s1">Início</a>
-              <a class="nav-link" href="#s2">A lenda</a>
-              <a class="nav-link" href="#s3">Histórias</a>
-              <a class="nav-link" href="#s4">Contato</a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!--colocando a logo do site na barra de menu do site-->
+      <a class="navbar-brand" href="#"><img class="img-logo" src="./images/scp-branco.webp" alt="Logo"></a>
+      <!--configurando os botões do navbar-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!--colocando os botões visiveis no menu com sua referencia(href) para conseguir conectar cada um com um id diferente depois-->
+          <a class="nav-link" href="#s1">Início</a>
+          <a class="nav-link" href="#s2">A lenda</a>
+          <a class="nav-link" href="#s3">Histórias</a>
+          <a class="nav-link" href="#s4">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section id="s1">
+      <div class="s1-esquerda">
+
+        <div class="historia-esquerda">
+          <h2 class="historia-esq">Histórias</h2>
+          <p>Siren Head é uma entidade humanóide e agressiva que normalmente habita em florestas com várias árvores. É uma criatura magra e alta com dois megafones no lugar de sua cabeça. As vítimas da criatura variam em viajantes perdidos, campistas e crianças pequenas.</p>
+        </div>
+      </div>
+     
+      <div class="s1-direita">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/siren-head01.jpg" class="d-block w-100 br" alt="siren-head-desenho">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/siren-head02.jpg" class="d-block w-100 br" alt="siren-head-floresta-escura">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/siren-head03.jpg" class="d-block w-100 br" alt="siren-head-floresta">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </nav>
-      <main>
-    <section id="s1">
-        <div class="carrossel">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./images/siren-head01.webp" class="d-block w-100" alt="siren-head-desenho" >
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/SirenHead02.webp" class="d-block w-100" alt="siren-head-floresta-escura">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/siren-head03.webp" class="d-block w-100" alt="siren-head-floresta">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-            <div class="s1-esquerda">
-                
-                <div class="historia-esquerda">
-                    <h2 class="historia-esq">Histórias</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repudiandae animi nihil rem commodi, 
-                        rerum minima tenetur. Deserunt commodi, temporibus rem voluptates cupiditate vitae maxime repudiandae, 
-                        nihil consequatur alias non?</p>
-            </div>
-        </div>
-        <div class="s1-direita">
-
-            <div class="foto-direita">
-                <img class="foto-direita-siren-head" src="./images/siren-head03.webp" alt="siren-head-foto-historia-direita">
-            </div>
-        </div>
+      </div>
     </section>
     <section id="s2">
-        <div class="banner-lenda">
-            <h2 class="lendas">Lendas</h2>
-        </div>
-            <div class="lendas-historia">
-                <p class="lenda-escrita">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Consequatur, quaerat praesentium ipsa officiis obcaecati id possimus blanditiis assumenda aspernatur suscipit laborum pariatur, 
-                    exercitationem debitis architecto eum. Ipsum eaque ut accusantium!</p>
-        </div>
+      <div class="banner-lenda">
+        <h2 class="lendas">Lendas</h2>
+      </div>
+      <div class="lendas-historia">
+        <p class="lenda-escrita">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consequatur, quaerat praesentium ipsa officiis obcaecati id possimus blanditiis assumenda aspernatur suscipit
+          laborum pariatur,
+          exercitationem debitis architecto eum. Ipsum eaque ut accusantium!</p>
+      </div>
     </section>
     <section id="s3">
-        <div class="banner-relatos-pessoas">
-            <h2 class="Relatos-pessoas">Relatos de pessoas</h2>
-        </div>
-            <div class="relatos-siren-head">
-                <p class="relatos-pessoas">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi voluptate dolorum et, 
-                    quibusdam quae adipisci voluptatum, similique corrupti quo aliquid, magnam esse nulla optio aspernatur at tempore deserunt! 
-                    Sequi, velit.</p>
-        </div>
+      <div class="banner-relatos-pessoas">
+        <h2 class="Relatos-pessoas">Relatos de pessoas</h2>
+      </div>
+      <div class="relatos-siren-head">
+        <p class="relatos-pessoas">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi voluptate dolorum et,
+          quibusdam quae adipisci voluptatum, similique corrupti quo aliquid, magnam esse nulla optio aspernatur at
+          tempore deserunt!
+          Sequi, velit.</p>
+      </div>
     </section>
     <section id="s4">
-        <div class="contato-wpp">
-                <label for="nome">Nome: </label>
-                <input type="text" placeholder="Digite seu nome:" id="nome">
-                <label for="assunto">Assunto: </label>
-                <input type="text" placeholder="Digite o assunto: " id="assunto">
-                <br>
-                <button onclick="enviarMsg()">Enviar</button>
-            </div>
-            <div class="redes-sociais">
-                redes sociais 
-            
-        </div>
+      <div class="contato-wpp">
+        <label for="nome">Nome: </label>
+        <input type="text" placeholder="Digite seu nome:" id="nome">
+        <label for="assunto">Assunto: </label>
+        <input type="text" placeholder="Digite o assunto: " id="assunto">
+        <br>
+        <button onclick="enviarMsg()">Enviar</button>
+      </div>
+      <div class="redes-sociais">
+        redes sociais
+
+      </div>
     </section>
     <footer>
-        <a target="_blank" href="https://github.com/Igor-Victor21/Cola-Github/blob/main/Aula%2003/index.html"><img width="30px" height="auto" src="..." alt="Github"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/igor-victor-693303336/"><img width="30px" height="auto" src="..." alt="Linkedin"></a>
-        <a target="_blank" href="https://web.whatsapp.com/ "><img width="30px" height="auto" src="..." alt="Whatsapp"></a>
+      <a target="_blank" href="https://github.com/Igor-Victor21/Cola-Github/blob/main/Aula%2003/index.html"><img
+          width="30px" height="auto" src="..." alt="Github"></a>
+      <a target="_blank" href="https://www.linkedin.com/in/igor-victor-693303336/"><img width="30px" height="auto"
+          src="..." alt="Linkedin"></a>
+      <a target="_blank" href="https://web.whatsapp.com/ "><img width="30px" height="auto" src="..." alt="Whatsapp"></a>
     </footer>
-</main>
-    <script>
-        function enviarMsg(){
-          document.getElementById("nome").style.border = "1px solid black"
-          document.getElementById("assunto").style.border = "1px solid black"
-          const nome = document.getElementById("nome").value
-          const assunto = document.getElementById("assunto").value
+  </main>
+  <script>
+    function enviarMsg() {
+      document.getElementById("nome").style.border = "1px solid black"
+      document.getElementById("assunto").style.border = "1px solid black"
+      const nome = document.getElementById("nome").value
+      const assunto = document.getElementById("assunto").value
 
-          if(!nome || !assunto){
-            document.getElementById("nome").style.border("2px solid red")
-            document.getElementById("assunto").style.border("2px solid red")
-            return
-          }
+      if (!nome || !assunto) {
+        document.getElementById("nome").style.border("2px solid red")
+        document.getElementById("assunto").style.border("2px solid red")
+        return
+      }
 
-          const mensagem = `Gostaria de entrar em contato!!! \n\nNome: ${nome} \nAssunto: ${assunto}`
-          const msg = encodeURIComponent(mensagem)
-          window.location.href = `https://wa.me/5541987446352?text=${msg}`
+      const mensagem = `Gostaria de entrar em contato!!! \n\nNome: ${nome} \nAssunto: ${assunto}`
+      const msg = encodeURIComponent(mensagem)
+      window.location.href = `https://wa.me/5541987446352?text=${msg}`
 
-        }
-    </script>
+    }
+  </script>
 </body>
+
 </html>
