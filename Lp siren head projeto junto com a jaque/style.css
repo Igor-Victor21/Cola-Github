@@ -23,6 +23,39 @@ body{
     width: 70px;
     height: auto;
 }
+#s1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 48px;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.s1-esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.s1-direita{
+    width: 800px;
+}
+
+
+.carrossel{
+    min-width: 100vw;
+    min-height: 25vh;    
+
+}
+.foto-direita{
+    width: 300px;
+    height: 26vh;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
 
 
 
