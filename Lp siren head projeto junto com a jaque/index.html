@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>O Jogador Desaparecido</title>
+  <title>Scp Corporation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
   <!--linkando o css e o java script-->
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
@@ -27,6 +27,21 @@
 
 </head>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -41,7 +56,7 @@
         <div class="navbar-nav">
           <!--colocando os botões visiveis no menu com sua referencia(href) para conseguir conectar cada um com um id diferente depois-->
           <a class="nav-link" href="#s1">Início</a>
-          <a class="nav-link" href="#s2">A lenda</a>
+          <a class="nav-link" href="#s2">Lendas</a>
           <a class="nav-link" href="#s3">Histórias</a>
           <a class="nav-link" href="#s4">Contato</a>
         </div>
@@ -52,12 +67,50 @@
     <section id="s1">
       <div class="s1-esquerda">
 
-        <div class="historia-esquerda">
-          <h2 class="historia-esq">Histórias</h2>
-          <p>Siren Head é uma entidade humanóide e agressiva que normalmente habita em florestas com várias árvores. É uma criatura magra e alta com dois megafones no lugar de sua cabeça. As vítimas da criatura variam em viajantes perdidos, campistas e crianças pequenas.</p>
+        <div class="cartao-historia">
+          <img class="img-scp-historia" src="./images/scp-branco.webp" alt="scp-branco" width="80px" height="auto"> 
         </div>
-      </div>
-     
+        <div class="cartao-info">
+          <h1 class="scp-contexto-titulo">O SERIA A FUNDAÇÃO SCP?</h>
+
+            <p class=" scp-contexto">A Fundação SCP é uma organização secreta confiada pelos governos de todo o mundo para conter e estudar
+              indivíduos,
+              entidades, locais, objetos e fenômenos anormais que desafiam as leis da natureza (que são sempre referidos
+              como SCPs).
+              Os objetos SCPs, se deixados fora de contenção, podem representar uma ameaça para os seres humanos ou,
+              pelo menos,
+              para o senso de realidade e normalidade da humanidade.</p>
+        </div>
+      </div> 
+
+      <!-- <div class="cartao-historia">
+
+        <div class="cartao-img-historia">
+          <img class="img-scp-historia" src="./images/scp-branco.webp" alt="scp-branco" width="80px" height="auto"> 
+        </div>
+        <div class="cartao-informacao">
+          <h2>O QUE SERIA A FUNDAÇÃO SCP?</h2>
+          <p class="historia-scp">A Fundação SCP é uma organização secreta confiada pelos governos de todo o mundo para conter e estudar
+            indivíduos,
+            entidades, locais, objetos e fenômenos anormais que desafiam as leis da natureza (que são sempre referidos
+            como SCPs).
+            Os objetos SCPs, se deixados fora de contenção, podem representar uma ameaça para os seres humanos ou,
+            pelo menos,
+            para o senso de realidade e normalidade da humanidade.</p>
+        </div>
+      </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
       <div class="s1-direita">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -93,25 +146,77 @@
       </div>
     </section>
     <section id="s2">
-      <div class="banner-lenda">
-        <h2 class="lendas">Lendas</h2>
+      <div class="cartao-lenda">
+
+        <div class="cartao-img">
+          <img src="./images/scp-096(chorao).jpeg" alt="chorao" width="80px" height="auto">
+        </div>
+        <div class="cartao-informacao">
+          <h2>O Homem Chorão</h2>
+          <p class="historia-scp">Uma criatura humanoide pálida que cobre o rosto e chora constantemente. 
+            Se alguém vê seu rosto, entra em um estado de fúria extrema e persegue a vítima sem parar, 
+            independentemente da distância. Nada consegue impedi-lo, e quando alcança a vítima, 
+            a mata violentamente antes de voltar ao seu estado inofensivo.</p>
+        </div>
       </div>
-      <div class="lendas-historia">
-        <p class="lenda-escrita">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Consequatur, quaerat praesentium ipsa officiis obcaecati id possimus blanditiis assumenda aspernatur suscipit
-          laborum pariatur,
-          exercitationem debitis architecto eum. Ipsum eaque ut accusantium!</p>
+
+      <div class="cartao-lenda">
+
+        <div class="cartao-img">
+          <img src="./images/scp-106.jpg" alt="velho-corruptor" width="80px" height="auto">
+        </div>
+        <div class="cartao-informacao">
+          <h2>O Velho Corruptor</h2>
+          <p class="historia-scp">Uma entidade humanoide cadavérica que apodrece tudo ao seu redor. Ele atravessa paredes e sequestra vítimas para sua dimensão de tortura, 
+            onde as mantém vivas por tempo indeterminado. Extremamente sádico, gosta de mutilar e quebrar mentalmente suas presas antes de descartá-las. 
+            É quase impossível contê-lo.</p>
+        </div>
       </div>
+
+      <div class="cartao-lenda">
+
+        <div class="cartao-img">
+          <img src="./images/scp_4666(homem do natal).jpg" alt="homem-natal" width="80px" height="auto">
+        </div>
+        <div class="cartao-informacao">
+          <h2>O Homem de Natal</h2>
+          <p class="historia-scp">Uma entidade alta, esquelética e de aparência demoníaca que surge durante o inverno, invadindo casas para sequestrar crianças. 
+            Seus ataques são brutais, e ele deixa presentes horríveis feitos de partes humanas para as famílias restantes.</p>
+        </div>
+      </div>
+
     </section>
     <section id="s3">
       <div class="banner-relatos-pessoas">
-        <h2 class="Relatos-pessoas">Relatos de pessoas</h2>
+        <h2>Relatos de pessoas</h2>
       </div>
-      <div class="relatos-siren-head">
-        <p class="relatos-pessoas">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi voluptate dolorum et,
-          quibusdam quae adipisci voluptatum, similique corrupti quo aliquid, magnam esse nulla optio aspernatur at
-          tempore deserunt!
-          Sequi, velit.</p>
+      <div class="relatos">
+        <h2>SCP-096 ("O Homem Chorão")</h2>
+        <p>
+          Eu estava revisando imagens de uma expedição no Himalaia quando, sem querer, vi algo estranho em uma foto.  
+          Uma figura pálida, esquelética, sentada na neve, cobrindo o rosto. Não dei importância... até que, naquela noite,  
+          ouvi passos no corredor. Meu apartamento fica no 10º andar, e eu moro sozinho. As batidas na porta vieram rápidas  
+          e violentas. Algo estava lá fora, soluçando, rosnando. Corri para o banheiro e travei a porta, mas ouvi o som de  
+          madeira se partindo. O choro virou um grito ensurdecedor. A última coisa que vi foi um par de mãos esqueléticas me agarrando.  
+      </p>
+      
+      <h2>SCP-106 ("O Velho Corruptor")</h2>
+      <p>
+          A porta do porão sempre esteve trancada. A casa era antiga, e meu avô dizia para nunca abrir. Mas, naquela noite, ouvi um barulho horrível  
+          vindo lá de baixo. Algo úmido, pegajoso, como carne se despedaçando. Peguei uma lanterna e desci devagar. O cheiro de ferrugem e podridão  
+          encheu o ar. A luz tremulou e... vi aquilo. Uma silhueta curvada, pele negra e podre, olhos vazios. Ele sorriu. Corri, mas o chão sob meus pés  
+          ficou mole, afundando. Caí em algo escuro e viscoso. Agora estou aqui... em um lugar sem cor, sem tempo. Ele me observa, esperando.  
+      </p>
+      
+      <h2> SCP-4666 ("O Homem de Natal")</h2>
+      <p>
+          Mamãe disse que eu estava sonhando. Eu vi as pegadas na neve, ouvi os rangidos no telhado, mas ela insistiu que era só o vento.  
+          Naquela noite, acordei com um som estranho—como ossos estalando. Olhei para o pé da cama e ele estava ali. Alto, esquelético,  
+          com um sorriso largo e dentes podres. Ele cheirava a carne estragada. Antes que eu pudesse gritar, colocou um dedo ossudo nos lábios.  
+          Meus pais não acordaram. No dia seguinte, eles encontraram apenas meu pijama ensanguentado e um presente debaixo da árvore.  
+          Dentro dele, algo que parecia... um pedaço de mim.  
+      </p>
+      
       </div>
     </section>
     <section id="s4">
@@ -124,16 +229,13 @@
         <button onclick="enviarMsg()">Enviar</button>
       </div>
       <div class="redes-sociais">
-        redes sociais
 
       </div>
     </section>
     <footer>
-      <a target="_blank" href="https://github.com/Igor-Victor21/Cola-Github/blob/main/Aula%2003/index.html"><img
-          width="30px" height="auto" src="..." alt="Github"></a>
-      <a target="_blank" href="https://www.linkedin.com/in/igor-victor-693303336/"><img width="30px" height="auto"
-          src="..." alt="Linkedin"></a>
-      <a target="_blank" href="https://web.whatsapp.com/ "><img width="30px" height="auto" src="..." alt="Whatsapp"></a>
+      <a target="_blank" href="https://github.com/Igor-Victor21/Cola-Github/blob/main/Aula%2003/index.html"><img width="80px" height="auto" src="./images/github.png" alt="Github"></a>
+      <a target="_blank" href="https://scp-wiki.wikidot.com/"><img width="80px" height="auto"src="./images/scp-branco.webp" alt="site oficial scp"></a>
+      <a target="_blank" href="https://br.pinterest.com/search/pins/?q=scp%27s%20creepy&rs=typed"><img width="75px" height="auto" src="./images/pinterest.png" alt="pinterest"></a>
     </footer>
   </main>
   <script>
