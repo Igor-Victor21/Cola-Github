@@ -48,26 +48,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: 400px;
-
+    width: 700px;
+    height: 300px;
+    margin-bottom: 100px;
 }
 
 .carousel {
-    padding-top: 15%;
+    padding-top: 400px;
     padding-bottom: 4%;
-    width: 50%;
+    width: 100%;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 400px;
-    gap: 80px;
 }
 
 .br {
@@ -82,7 +73,7 @@ body {
     height: auto;
     flex-wrap: wrap;
     border-radius: 20px;
-    padding-top: 100px;
+    padding-top: 300px;
 }
 
 .cartao-inicio {
@@ -97,9 +88,6 @@ body {
     align-items: center;
     justify-items: center;
     flex-direction: column;
-    min-height: 300px;
-    max-height: 300px;
-
 }
 
 .cartao-info h2 {
@@ -301,4 +289,13 @@ footer img {
 
 footer img:hover {
     transform: scale(1.0) rotate(10deg);
+}
+
+@media (width < 630px){
+    
+.carousel-entrada-site {
+    
+    width: 100%;
+
+}
 }
