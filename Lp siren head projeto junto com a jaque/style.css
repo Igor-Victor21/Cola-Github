@@ -13,6 +13,13 @@
     --braco-cinza: #CCCCCC;
 }
 
+.nav-link{
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--vermelho-escuro);   
+}
+
 .img-logo {
     width: 70px;
     height: auto;
@@ -20,11 +27,8 @@
 
 body{
     padding-top: 4%;
+    flex-wrap: wrap;
 }
-/* main{
-    background-color: #000000;
-    background-size: cover;
-} */
 #s1{
     display: flex;
     align-items: center;
@@ -117,6 +121,7 @@ body{
     gap: 50px;
     flex-wrap: wrap;
     padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .cartao-lenda{
@@ -126,20 +131,13 @@ body{
     box-shadow: #B11623 0px 54px 55px, #B11623 0px -12px 30px, #B11623 0px 4px 6px, #B11623 0px 12px 13px, #B11623 0px -3px 5px;
     border: 2px solid var(--vermelho);
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.cartao-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100px;
-    max-height: 100px;
-}
 
 .cartao-informacao{
     display: flex;
@@ -162,6 +160,25 @@ body{
 .historia-scp{
     color: #000000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+
+.cartao-informacao button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 999px;
+    width: 100%;
+    border: none;
+    background: none;
+    color: var(--vermelho-escuro);
+    border: 2px solid var(--vermelho);
+    transition: all 200ms ease-in-out;
+}
+
+.cartao-informacao button:hover{
+    color: var(--vermelho);
+     border: 2px solid var(--vermelho-escuro);
+     background: var(--preto);
 }
 
 #s3{
@@ -226,6 +243,7 @@ body{
     justify-content: center;
     color: #CCCCCC;
     background-color: #000000;
+    font-family: "Creepster", serif;
     width: 300px;
     padding: 20px;
     border: 2px solid var(--vermelho);
@@ -234,23 +252,25 @@ body{
 }
 
 .contato-wpp button{
+    font-family: "Creepster", serif;
     padding: 10px;
     border-radius: 999px;
     width: 100%;
     border: none;
     background: none;
-    color: #CCCCCC;
+    color: var(--vermelho-escuro);
     border: 2px solid var(--vermelho);
     transition: all 200ms ease-in-out;
 }
 
 .contato-wpp button:hover{
-    color: var(--preto);
-    border: 2px solid var(--preto);
+    color: var(--vermelho-escuro);
+    border: 2px solid var(--vermelho);
     background: var(--braco-cinza);
  }
 
  .contato-wpp input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     border-radius: 999px;
     width: 100%;
